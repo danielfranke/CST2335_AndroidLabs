@@ -9,17 +9,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
         <activity
             android:name=".StartActivity"
             android:label="@string/activityNameStartActivity">
 
+            <!--activity to start first-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/activityNameLoginActivity">
+        </activity>
+
+        <activity
+            android:name=".ListItemsActivity"
+            android:label="@string/activityNameListItemsActivity">
+        </activity>
+
     </application>
 
 </manifest>
