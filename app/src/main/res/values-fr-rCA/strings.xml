@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CST2335_LabAndroid</string>
+
+    // Lab 1 Start Activity
+    <string name="activityNameStartActivity">Activité de départ</string>
     <string name="welcomeMessage">Bonjour!</string>
     <string name="buttonText">Je suis un boutton</string>
 </resources>
