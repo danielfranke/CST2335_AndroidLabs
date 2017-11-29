@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CST2335_AndroidLabs</string>
+    <string name="welcomeMessage">Hello World!</string>
+    <string name="buttonText">I\'m a button</string>
+</resources>
