@@ -4,4 +4,27 @@
     <string name="activityNameStartActivity">Start Activity</string>
     <string name="welcomeMessage">Hello World!</string>
     <string name="buttonText">I\'m a button</string>
+
+    // Lab 2 - Login Activity
+    <string name="activityNameLoginActivity">Login Activity</string>
+    <string name="textViewLogin">login</string>
+    <string name="editTextLogin">your email address</string>
+    <string name="textViewPassword">password</string>
+    <string name="buttonLogin">LOGIN</string>
+
+    // Lab 2 - ListItems Activity
+    <string name="activityNameListItemsActivity">List Items Activity</string>
+    <string name="radioButtonListItemsActivity">Radio Button</string>
+    <string name="checkBoxListItemsActivity">CheckBox</string>
+    <string name="switchListItemsActivity">What does this do?</string>
+    
+    // Lab 3 - List Items Activity
+    <string name="alertSelectOptionsMessage">Select an option</string>
+    <string name="alertSetTitle">Do you want to finish the activity?</string>
+    <string name="alertPositiveResponse">Yes</string>
+    <string name="alertResponse">Here is my response</string>
+    <string name="alertNegativeResponse">Cancel</string>
+
 </resources>
+
+
