@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    // Lab 1 Start Activity
-    <string name="activityNameStartActivity">Activité de départ</string>
+    <string name="activityNameStart">Activité de départ</string>
     <string name="welcomeMessage">Bonjour!</string>
     <string name="buttonText">Je suis un boutton</string>
+    <string name="textViewPassword">mot de passe</string>
+    <string name="textViewLogin">s\'identifier</string>
+    <string name="editTextLogin">votre adresse courriel</string>
+    <string name="buttonLogin">S\'IDENTIFIER</string>
+    <string name="radioButtonListItems">Bouton radio</string>
+    <string name="checkBoxListItems">Case à cocher</string>
+    <string name="switchListItems">Qu\'est-ce que ça fait?</string>
+    <string name="alertSetTitle">Voulez-vous finir l\'activité?</string>
+    <string name="alertPositiveResponse">Oui</string>
+    <string name="alertResponse">Voici ma réponse</string>
+    <string name="alertNegativeResponse">Annuler</string>
+    <string name="alertSelectOptionsMessage">Choisir une option</string>
+    <string name="buttonStartChat">Démarrer la discussion</string>
+    <string name="buttonSendMessage">Envoyer</string>
+    <string name="editTextMessage">Votre message</string>
+    <string name="activityNameLogin">Activité de connexion</string>
+    <string name="activityNameListItems">Liste des éléments Activité</string>
+    <string name="activityNameChatWindow">Activité de la fenêtre de discussion</string>
 </resources>
