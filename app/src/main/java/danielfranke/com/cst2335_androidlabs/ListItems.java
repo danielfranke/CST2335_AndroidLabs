@@ -17,10 +17,10 @@ import android.content.DialogInterface;
 
 
 
-public class ListItemsActivity extends Activity {
+public class ListItems extends Activity {
 
     // CLASS VARIABLES
-    protected final String ACTIVITY_NAME = "ListItemsActivity";
+    protected final String ACTIVITY_NAME = "ListItems";
     static final int REQUEST_IMAGE_CAPTURE = 1;
     private ImageButton buttonCamera;
     private Switch switchStatus; // on or off
@@ -42,24 +42,27 @@ public class ListItemsActivity extends Activity {
         });
 
         // Switch
-        switchStatus = findViewById(R.id.switchListItemsActivity);
+        final String switchOn = getString(R.string.switchOn);
+        final String switchOff = getString(R.string.switchOff);
+
+        switchStatus = findViewById(R.id.switchListItems);
         switchStatus.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    CharSequence text = "Switch is on";
+                    CharSequence text = switchOn;
 
                     int duration = Toast.LENGTH_SHORT;
 
-                    Toast toast = Toast.makeText(ListItemsActivity.this, text, duration);
+                    Toast toast = Toast.makeText(ListItems.this, text, duration);
                     toast.show();
                 } else {
-                    CharSequence text = "Switch is off";
+                    CharSequence text = switchOff;
 
                     int duration = Toast.LENGTH_LONG;
 
-                    Toast toast = Toast.makeText(ListItemsActivity.this, text, duration);
+                    Toast toast = Toast.makeText(ListItems.this, text, duration);
                     toast.show();
                 }
             }
@@ -67,12 +70,12 @@ public class ListItemsActivity extends Activity {
         });
 
         // Checkbox
-        checkBoxStatus = findViewById(R.id.checkBoxListItemsActivity);
+        checkBoxStatus = findViewById(R.id.checkBoxListItems);
         checkBoxStatus.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(ListItemsActivity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(ListItems.this);
                 builder.setMessage(R.string.alertSelectOptionsMessage) // Add dialog message to strings.xml
 
                         .setTitle(R.string.alertSetTitle)
@@ -80,7 +83,10 @@ public class ListItemsActivity extends Activity {
                             public void onClick(DialogInterface dialog, int id) {
                                 // User clicked OK button
                                 Intent resultIntent = new Intent(  );
-                                resultIntent.putExtra("Response", "Here is my response"); // *** FIX - use xml for message
+
+                                String response = getString(R.string.response);
+
+                                resultIntent.putExtra("Response", response); // *** FIX - use xml for message
                                 setResult(Activity.RESULT_OK, resultIntent);
                                 finish();
                             }
@@ -138,7 +144,7 @@ public class ListItemsActivity extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
-            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            Bitmap imageBitmap = (Bitmap) extras.  get("data");
             buttonCamera.setImageBitmap(imageBitmap);
         }
     }
