@@ -8,15 +8,15 @@ package danielfranke.com.cst2335_androidlabs;
 public class ChatDatabaseHelper extends SQLiteOpenHelper {
 
     // CLASS VARIABLES
-    public final static String DATABASE_NAME = "Message.db";
-    public final static String TABLE_NAME = "MessageTable"; // table rename won't work unless VERSION_NUM is also changed
-    public final static String KEY_ID = "ID";
-    public final static String KEY_MESSAGE = "MESSAGE";
-    public final static int VERSION = 1;
-    protected static final String ACTIVITY_NAME = "ChatDatabaseHelper";
+     private final static String DATABASE_NAME = "Message.db";
+     final static String TABLE_NAME = "MessageTable"; // table rename won't work unless VERSION_NUM is also changed
+     final static String KEY_ID = "ID";
+     final static String KEY_MESSAGE = "MESSAGE";
+     private final static int VERSION = 2;
+     private static final String ACTIVITY_NAME = "ChatDatabaseHelper";
 
     // CONSTRUCTOR
-    public ChatDatabaseHelper(Context ctx) {
+     ChatDatabaseHelper(Context ctx) {
         super(ctx, DATABASE_NAME, null, VERSION);
 
     }
