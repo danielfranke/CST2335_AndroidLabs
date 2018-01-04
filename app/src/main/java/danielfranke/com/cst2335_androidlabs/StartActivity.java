@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-
+//
 public class StartActivity extends Activity {
 
     private static final String ACTIVITY_NAME = "StartActivity";

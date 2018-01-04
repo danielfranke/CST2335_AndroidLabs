@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_one"
+        android:title="@string/iconSnowflake"
+        android:icon="@drawable/snowflake"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_two"
+        android:title="@string/iconCandyCane"
+        android:icon="@drawable/candycane"
+        android:orderInCategory="101"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_three"
+        android:title="@string/iconChristmasTree"
+        android:icon="@drawable/christmastree"
+        android:orderInCategory="102"
+        android:showAsAction="always" />
+
+</menu>
