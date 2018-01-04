@@ -1,29 +1,58 @@
 <resources>
 
     // LAB 1 - Start Activity
-    <string name="activityNameStartActivity">Start Activity</string>
+    <string name="activityNameStart">Start Activity</string>
     <string name="welcomeMessage">Hello World!</string>
     <string name="buttonText">I\'m a button</string>
 
     // Lab 2 - Login Activity
-    <string name="activityNameLoginActivity">Login Activity</string>
+    <string name="activityNameLogin">Login Activity</string>
     <string name="textViewLogin">login</string>
     <string name="editTextLogin">your email address</string>
     <string name="textViewPassword">password</string>
     <string name="buttonLogin">LOGIN</string>
 
     // Lab 2 - ListItems Activity
-    <string name="activityNameListItemsActivity">List Items Activity</string>
-    <string name="radioButtonListItemsActivity">Radio Button</string>
-    <string name="checkBoxListItemsActivity">CheckBox</string>
-    <string name="switchListItemsActivity">What does this do?</string>
-    
+    <string name="activityNameListItems">List Items Activity</string>
+    <string name="radioButtonListItems">Radio Button</string>
+    <string name="checkBoxListItems">CheckBox</string>
+    <string name="switchListItems">What does this do?</string>
+    <string name="response">Here is my response</string>
+    <string name="switchOn">Switch is on</string>
+    <string name="switchOff">Switch is off</string>
+
     // Lab 3 - List Items Activity
     <string name="alertSelectOptionsMessage">Select an option</string>
     <string name="alertSetTitle">Do you want to finish the activity?</string>
     <string name="alertPositiveResponse">Yes</string>
     <string name="alertResponse">Here is my response</string>
     <string name="alertNegativeResponse">Cancel</string>
+
+    // Lab 4 - Start Chat Activity
+    <string name="activityNameChatWindow">Chat Window Activity</string>
+    <string name="buttonStartChat">Start Chat</string>
+    <string name="buttonSendMessage">Send</string>
+    <string name="editTextMessage">Your message</string>
+
+    // Lab 6 - Weather Forecast
+    <string name="activityNameWeatherForecast">Weather Forecast</string>
+    <string name="buttonWeatherForecast">Weather Forecast</string>
+    <string name="textViewCurrentTemp">Current</string>
+    <string name="textViewMinTemp">Min</string>
+    <string name="textViewMaxTemp">Max</string>
+    <string name="celsius">\u2103</string>
+    <string name="imageDescr">weather forecast image</string>
+
+    // Lab 7 - Fragment
+    <string name="textViewMessage">Message</string>
+    <string name="textViewChatID">MessageID</string>
+    <string name="buttonDeletetMessage">Delete Message</string>
+    <string name="title_activity_test_toolbar">Toolbar Activity</string>
+    <string name="iconSnowflake">snowflake</string>
+    <string name="iconCandyCane">candy cane</string>
+    <string name="iconChristmasTree">christmas tree</string>
+
+
 
 </resources>
 

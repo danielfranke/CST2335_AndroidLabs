@@ -11,7 +11,7 @@
 
         <activity
             android:name=".StartActivity"
-            android:label="@string/activityNameStartActivity">
+            android:label="@string/activityNameStart">
 
             <!--activity to start first-->
             <intent-filter>
@@ -21,13 +21,23 @@
         </activity>
 
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/activityNameLoginActivity">
+            android:name=".Login"
+            android:label="@string/activityNameLogin">
         </activity>
 
         <activity
-            android:name=".ListItemsActivity"
-            android:label="@string/activityNameListItemsActivity">
+            android:name=".ListItems"
+            android:label="@string/activityNameListItems">
+        </activity>
+
+        <activity
+            android:name=".ChatWindow"
+            android:label="@string/activityNameChatWindow">
+        </activity>
+
+        <activity
+            android:name=".WeatherForecast"
+            android:label="@string/activityNameWeatherForecast">
         </activity>
 
     </application>
