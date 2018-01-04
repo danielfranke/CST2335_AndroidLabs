@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-//
+
 public class StartActivity extends Activity {
 
     private static final String ACTIVITY_NAME = "StartActivity";
@@ -62,7 +62,7 @@ public class StartActivity extends Activity {
         });
 
 
-//        Button toolbar = (Button)findViewById(R.id.toolbarbutton);
+///        Button toolbar = (Button)findViewById(R.id.toolbarbutton);
 //        toolbar.setOnClickListener(new View.OnClickListener() {
 //            public void onClick(View view){
 //                Log.i(ACTIVITY_NAME,"User clicked toolbar Button");
